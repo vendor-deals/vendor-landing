@@ -23,8 +23,8 @@ export default function Infor() {
           </HyperText>
 
           <p className="text-muted-foreground max-w-3xl border-l-4 border-foreground pl-2">
-            Coming soon! We're building the next generation NFT marketplace on
-            Cedra Network. Experience seamless trading with low fees, secure
+            Coming soon! We&apos;re building the next generation NFT marketplace
+            on Cedra Network. Experience seamless trading with low fees, secure
             transactions, and a vibrant creator community.
           </p>
         </div>

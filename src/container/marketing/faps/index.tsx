@@ -37,7 +37,7 @@ export default function FAQs() {
       icon: "shield",
       question: "How secure is Vendor marketplace?",
       answer:
-        "Vendor is built on Cedra Network's robust blockchain infrastructure, ensuring maximum security for all transactions. Smart contracts are audited, and all NFT metadata is stored securely. Our platform implements industry-standard security practices to protect users and their assets.",
+        "Vendor is built on Cedra Network&apos;s robust blockchain infrastructure, ensuring maximum security for all transactions. Smart contracts are audited, and all NFT metadata is stored securely. Our platform implements industry-standard security practices to protect users and their assets.",
     },
     {
       id: "item-4",
@@ -64,7 +64,7 @@ export default function FAQs() {
               Frequently Asked Questions
             </h2>
             <p className="text-muted-foreground">
-              Can't find what you're looking for? Contact our{" "}
+              Can&apos;t find what you&apos;re looking for? Contact our{" "}
               <Link
                 href="#"
                 className="text-primary font-medium hover:underline"
