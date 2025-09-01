@@ -13,23 +13,23 @@ import { siteConfig } from "@/config/site.config";
 //   { href: "/", label: "Contact" },
 // ];
 
-const defaultSocialLinks = [
-  {
-    href: "",
-    icon: <X />,
-  },
+// const defaultSocialLinks = [
+//   {
+//     href: "",
+//     icon: <X />,
+//   },
 
-  //   {
-  //     href: "",
-  //     icon: <Github />,
-  //   },
-];
+//   {
+//     href: "",
+//     icon: <Github />,
+//   },
+// ];
 
 const Footer = ({
   brandName = "Vendor.deals",
   //   navigationLinks = defaultNavigationLinks,
-  socialLinks = defaultSocialLinks,
 }) => {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="bg-background border-t border-dashed">
       <div className="px-4 py-8">
@@ -74,7 +74,7 @@ const Footer = ({
       <div className="border-t border-dashed">
         <div className="mt-5 text-center text-sm">
           <p>
-            &copy; {new Date().getFullYear()} {brandName}. All rights reserved.
+            © {currentYear} {brandName}. All rights reserved.
           </p>
         </div>
       </div>
