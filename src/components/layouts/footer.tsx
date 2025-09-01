@@ -74,7 +74,7 @@ const Footer = ({
       <div className="border-t border-dashed">
         <div className="mt-5 text-center text-sm">
           <p>
-            © {currentYear} {brandName}. All rights reserved.
+            &copy; {new Date().getFullYear()} {brandName}. All rights reserved.
           </p>
         </div>
       </div>

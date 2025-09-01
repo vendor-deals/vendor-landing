@@ -1,8 +1,6 @@
 "use client";
 
 import Header from "@/components/layouts/header";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
 import Spline from "@splinetool/react-spline";
 
 import { HyperText } from "@/components/ui/hyper-text";

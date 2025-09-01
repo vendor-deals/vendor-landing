@@ -108,7 +108,7 @@ const featureConfig = [
     category: "Payments",
     name: "Multiple Payment Options",
     description:
-      "Connect your preferred wallet and trade using Cedra Network's native token. Simple and secure payment processing.",
+      "Connect your preferred wallet and trade using Cedra Network&apos;s native token. Simple and secure payment processing.",
     link: "#",
   },
   {
